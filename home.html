@@ -9,12 +9,49 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <title>Welcome</title>
+    <!-- Lays the links in line and centers text! -->
+    <style>
+        .icon {
+            display: inline-block;
+            padding-right: 10px;
+        }
+        .footer-links {
+            text-align: center;
+        }        
+    </style>
 </head>
 
 <body>
-    <img src="..." class="img-fluid" alt="...">
+    <!-- <img src="..." class="img-fluid" alt="..."> -->
+    <div class="container">
+        <div class="restaurant">
+            <h1 class="text-center">Hot Restaurant</h1>
+            <h3 class="text-center">Only 3 tables and a wait list of 5 month waiting list</h3>
+            <hr>
+            <div class="text-center">
+                <a href="view.html" class="btn btn-success text-center"><i class="fas fa-credit-card icon"></i>View
+                    Availabilty</a>
+                <a href="make.html" class="btn btn-info text-center"><i class="far fa-list-alt icon"></i>Make a
+                    Reservation</a>
+            </div>
+        </div>
+
+        <!-- Making extra divs for local storage, and populating clients -->
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Links to Api's -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="">Api Table Link</a>
+                |
+                <a href="">Api Wait List</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
